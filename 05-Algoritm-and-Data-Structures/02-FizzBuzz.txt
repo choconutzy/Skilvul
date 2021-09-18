@@ -1,0 +1,15 @@
+INPUT n # number = 20
+
+iteration = 1
+while iteration < n
+	IF iteration MOD 3 IS 0 AND iteration MOD 5 IS 0 THEN
+		DISPLAY "FizzBuzz"
+	ELSE IF iteration MOD 3 IS 0 THEN
+		DISPLAY "Fizz"
+	ELSE IF iteration MOD 5 THEN
+		DISPLAY "Buzz"
+	ELSE IF iteration MOD 3 IS 0 AND iteration MOD 5 IS 0 bTHEN
+		DISPLAY "FizzBuzz"
+	ELSE 
+		DISPLAY iteration
+	iteration = iteration + 1

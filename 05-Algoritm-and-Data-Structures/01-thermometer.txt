@@ -1,0 +1,13 @@
+INPUT temp #number = 86
+INPUT tempType #text = "fahrenheit"
+
+IF temp
+ELSE IF temptType IS "fahrenheit" THEN
+	DISPLAY (temp - 32) * (5/9)
+ELSE IF temptType IS "kelvin" THEN
+	DISPLAY (temp - 273.15)
+ELSE IF temptType IS "celcius" THEN
+	DISPLAY temp
+ELSE
+    DISPLAY "TIPE YANG DIMAKSUDKAN SALAH"
+ENDIF

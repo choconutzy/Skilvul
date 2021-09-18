@@ -1,0 +1,14 @@
+INPUT KATA # user KATA = "KODOK"
+
+PANJANG_KATA = LEN KATA
+iteration = PANJANG KATA - 1
+iterationPlus = 0
+WHILE iteration >= 0
+	IF KATA[iteration] != KATA[iterationPlus] THEN
+		DISPLAY FALSE
+		BREAK
+	IF ELSE iteration * 2 >= PANJANG_KATA THEN
+		DISPLAY TRUE
+		BREAK
+	IF END
+	iteration = iteration - 1
