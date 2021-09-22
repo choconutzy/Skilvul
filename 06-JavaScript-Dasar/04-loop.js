@@ -20,27 +20,30 @@ console.log(result.toString())
 
 /// Soal - 02
 /// Kamu diminta untuk menemukan bilangan prima ke-50, temukan bilangan tersebut menggunakan while loop 
+let nth = 50; // input
+let primeCounter = 0;
 let fiftiethPrime;
-let result = []
-let i = 2
-while(i<500){
-  let isPrime = true;
-  let j = 2;
-  while(j<i){
-    if(i%j==0){
-      isPrime = false;
-      break;
+let i = 2; //iterations
+let result = 2 ;
+while(primeCounter<nth){
+    let isPrime = true;
+    
+    for(let j = 2; j<i;j++){
+        if(i%j===0){
+            isPrime = false;
+            break;
+        }
     }
-    j++;
-  }
-  if(isPrime){
-    result.push(i)
-  }
-  i++;
+    
+    if(isPrime){
+        primeCounter++;
+        result = i;
+    }
+    
+    i++
 }
-fiftiethPrime = result[49] // ke 49 karena index dimulai dari nol
-console.log(fiftiethPrime)
 
+console.log(result)
 
 /// Soal - 03
 /// Kamu diminta untuk menemukan bilangan ganjil ke-50, temukan bilangan tersebut menggunakan do while loop
