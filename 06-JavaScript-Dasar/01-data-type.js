@@ -4,12 +4,11 @@ const isMarried = false; /// Boolean
 
 /// Soal - 01
 /// Gunakan built-in function yang dimiliki tipe data String untuk mengubah variable name menjadi huruf besar
-const upperCase = name;
-
+const upperCase = name.toUpperCase();
 
 /// Soal - 02
 /// Gunakan built-in function yang dimiliki oleh Javascript, agar kita mengetahui apa tipe data yang dimiliki oleh variable age
-const ageInDays = age * 10;
+const ageInDays = typeof(age);
 
 
 /// Soal - 03
