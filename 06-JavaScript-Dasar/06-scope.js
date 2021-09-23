@@ -25,7 +25,7 @@ console.log(printFirstName("Mariah Carey"));
 /// WRITE YOUR ANALYSIS HERE
 /// output yang muncul adalah undefined
 /// - dari segi salaryWithVar, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), function salaryWithVar (local variabel) tidak dideklarasikan, otomatis mencari global variabel yang berada tepat diatas/ atau sebelum console.log. Karena tidak ditemukan global variabel atau tidak diinisialisasikan maka jadi undefined.
-/// - dari segi salaryWithConst, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), function salaryWithVar (local variabel) tidak dideklarasikan, otomatis mencari global variabel yang berada tepat diatas/ atau sebelum console.log. Karena tidak ditemukan global variabel atau tidak diinisialisasikan maka jadi undefined.
+/// - dari segi salaryWithConst, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), function salaryWithConst (local variabel) tidak dideklarasikan, otomatis mencari global variabel yang berada tepat diatas/ atau sebelum console.log. Karena tidak ditemukan global variabel atau tidak diinisialisasikan maka jadi undefined.
 console.log(salaryWithConst)
 
 var salaryWithVar = 15000000;
