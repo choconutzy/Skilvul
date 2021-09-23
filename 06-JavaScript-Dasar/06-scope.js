@@ -1,10 +1,11 @@
 /// Soal - 01
 /// Kamu diminta untuk melakukan analisa terhadap baris kode dibawah ini
-/// - apa yang akan tampil didalam comsole.log ?
+/// - apa yang akan tampil didalam console.log ?
 /// - apa alasan yang menyebabkan hasil dari console itu bukan nilai dari variable name?
 
 /// WRITE YOUR ANALYSIS HERE
-///
+/// di dalam console.log akan ditampilan output "Mariah"
+/// hal ini dikarenakan name pada function merupakan parameter yang hanya dapat terdefinisi jika fungsi dipanggil dengan argumen. Walaupun nantinya fungsi yang dipanggil memiliki argumen kosong dan terdapat variabel sebelum function, kembalian value tidak akan terbaca/undefined
 const name = "John Watson";
 
 function printFirstName(name) {
@@ -22,6 +23,9 @@ console.log(printFirstName("Mariah Carey"));
 ///   - dari segi salaryWithConst
 
 /// WRITE YOUR ANALYSIS HERE
+/// output yang muncul adalah undefined
+/// - dari segi salaryWithVar, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), variabel hanya dapat muncul value nya jika sebelumnya sudah dideklarasikan
+/// - dari segi salaryWithConst, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), variabel hanya dapat muncul value nya jika sebelumnya sudah dideklarasikan
 console.log(salaryWithVar)
 console.log(salaryWithConst)
 
