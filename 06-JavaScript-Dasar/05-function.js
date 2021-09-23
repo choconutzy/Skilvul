@@ -99,17 +99,22 @@ console.log(convToUpperCase("heloo world"));
 
 // Nomor 4
 function firstNonRepeatedChar(word){
-    for(let i=0; i<word.length ;i++){
-        if (word[i] == " ") {
-            return "kata tidak boleh dipisah";
-        } else{
-            let count = (temp.match(/word/g) || []).length;
+    if(word.indexOf(" ") >0){
+        return "kata tidak boleh dipisah";
+    }else{
+        for (var i = 0; i < word.length; i++) {
+            var c = word.charAt(i);
+            if (word.indexOf(c) == i && word.indexOf(c, i + 1) == -1) {
+              return c;
+            }
         }
+        return '""';
+    }
 }
 
-console.log("hello world");
-console.log("alloha");
-console.log("wooohoowh");
+console.log(firstNonRepeatedChar("Hello World"));
+console.log(firstNonRepeatedChar("alloha"));
+console.log(firstNonRepeatedChar("wooohoowh"));
 
 
 
