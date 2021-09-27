@@ -116,4 +116,3 @@ console.log(firstNonRepeatedChar("alloha"));
 console.log(firstNonRepeatedChar("wooohoowh"));
   
   
-  
