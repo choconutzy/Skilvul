@@ -5,7 +5,7 @@
 
 /// WRITE YOUR ANALYSIS HERE
 /// di dalam console.log akan ditampilan output "Mariah"
-/// hal ini dikarenakan name pada function merupakan parameter yang hanya dapat terdefinisi jika fungsi dipanggil dengan argumen. Walaupun nantinya fungsi yang dipanggil memiliki argumen kosong dan terdapat variabel sebelum function, kembalian value tidak akan terbaca/undefined
+/// hal ini dikarenakan name pada function merupakan local function, dimana dalam variabel local akan selalu didahulukan sebelum global. Apabila argumen tidak dideklarasikan maka akan menggunakan global variabel yakni yang berada di luar function.
 const name = "John Watson";
 
 function printFirstName(name) {
@@ -24,9 +24,8 @@ console.log(printFirstName("Mariah Carey"));
 
 /// WRITE YOUR ANALYSIS HERE
 /// output yang muncul adalah undefined
-/// - dari segi salaryWithVar, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), variabel hanya dapat muncul value nya jika sebelumnya sudah dideklarasikan
-/// - dari segi salaryWithConst, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), variabel hanya dapat muncul value nya jika sebelumnya sudah dideklarasikan
-console.log(salaryWithVar)
+/// - dari segi salaryWithVar, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), function salaryWithVar (local variabel) tidak dideklarasikan, otomatis mencari global variabel yang berada tepat diatas/ atau sebelum console.log. Karena tidak ditemukan global variabel atau tidak diinisialisasikan maka jadi undefined.
+/// - dari segi salaryWithConst, variabel ini tidak ada sebelum console.log(tidak dideklarasikan), function salaryWithConst (local variabel) tidak dideklarasikan, otomatis mencari global variabel yang berada tepat diatas/ atau sebelum console.log. Karena tidak ditemukan global variabel atau tidak diinisialisasikan maka jadi undefined.
 console.log(salaryWithConst)
 
 var salaryWithVar = 15000000;
