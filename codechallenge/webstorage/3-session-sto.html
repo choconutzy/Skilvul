@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <form>
+        <label for="angka">Masukkan Angka:</label><br>
+        <input type="text" id="in" name="in" value=""><br>
+        <input type="submit" id="submit" value="Input">
+        <p id="sum">Sum : </p>
+    </form>
+    <script>
+        const elInput = document.getElementById("in")
+        const elSubmitbtn = document.getElementById("submit")
+        const sum_ = document.getElementById("sum")
+        let arr = parseInt(0)
+        elSubmitbtn.addEventListener("click", function(e){
+            e.preventDefault()
+            sessionStorage.setItem("in", elInput.value)
+            let x = sessionStorage.getItem("in")
+            arr = arr + parseInt(x)
+            sum_.innerText = `Sum :${arr}`
+            elInput.value = ""
+        })
+    </script>
+</body>
+</html>

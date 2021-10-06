@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "pwa-node",
             "request": "launch",
@@ -48,6 +49,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\06-JavaScript-Dasar\\08-DOM\\DOM_2 copy.html"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program array1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\07-JavaScript-Intermediet\\01-array.js"
         },
     ]
 }
