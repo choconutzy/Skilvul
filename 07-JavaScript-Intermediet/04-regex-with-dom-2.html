@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Skilvul</title>
+  </head>
+  <body>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+    <button id="btn-submit" style="display: block; margin-top: 10px">
+      submit
+    </button>
+    <script>
+      /// EDIT DOWN HERE
+      const elInputEmail = document.querySelector("#email");
+      const elInputPassword = document.querySelector("#password");
+      const elBtnSubmit = document.querySelector("#btn-submit");
+
+      //  When user clicked submit button
+      elBtnSubmit.addEventListener("click", function(e){
+          e.preventDefault();
+
+          const email = elInputEmail.value;
+          const passowrd = elInputPassword.value;
+          const emailValidator = new RegExp(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+          const passwordValidator = new RegExp(/[a-zA-Z0-9!@#$%^&*]{8,}/)
+
+          if(emailValidator.test(email) && passwordValidator.test(password)){
+              alert("Welcome to The Jungle")
+          }else{
+              if((emailValidator.test(email))){
+                  alert("tolong masukan password sesuai ketentuan")
+              }else if(passwordValidator.test(password)) {
+                  alert("tolong masukan email yang valid")
+              } else{
+                  alert("tolong masukan email dan password yang valid")
+              }
+          }
+      })
+    </script>
+  </body>
+</html>
