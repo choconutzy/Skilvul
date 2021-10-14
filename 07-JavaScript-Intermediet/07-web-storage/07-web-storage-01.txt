@@ -1,0 +1,3 @@
+1. Local storage adalah properti javascript untuk penyimpanan key-value pada web browser tanpa batas waktu dengan ukuran maksimal 5mb
+2. Cookie adalah data dalam bentuk string yang disimpan dalam web browser dengan ukuran maksimal 4kb. Cookie diciptakan untuk mengingat informasi tentang pengguna yakni ketika mengunjungi halaman web, namanya dapat disimpan cookie, saat pengguna mengunjungi halaman web di lain waktu, cookie mengingat namanya
+3. Perbedaan local storage dan session storage yakni local storage dapat menyimpan data tanpa batas waktu meskipun webnya ditutup sedangkan session torage datanya akan hilang ketika user menutup browser
