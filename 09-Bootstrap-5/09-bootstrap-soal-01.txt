@@ -1,0 +1,11 @@
+1. CSS Framework adalah kumpulan kode CSS yang dapat digunakan untuk mengembangkan website. CSS Framework adalah hasil formula codingan website yang telah siap digunakan. Sehingga programmer tidak perlu menghabiskan banyak waktu dan tenaga untuk membuat formula CSS website baru dari awal.
+2. Bootsrap bukan satu satunya CSS Framework yang dapat digunakan
+3. CSS Framework selain Bootsrap yakni UIKit, Tailwind, Semantic-UI, skeleton
+4. Tata cara penggunaan Bootstrap
+ - Bootstrap dapat dihubungkan secara online dengan CDN yakni menambahkan CSS bootstrap pada teg <head>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+ dan menambahkan javascript bootstrap pada paling bawah tag <body> atau diatas tag </body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+ - Bootstrap di download dan dapat digunakan secara offline, setelah didownload file di ekstrak lalu dijadikan satu folder dengan proyek web yang sedang kita buat
+    
