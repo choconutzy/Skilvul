@@ -59,5 +59,23 @@
             ],
             "program": "${workspaceFolder}\\07-JavaScript-Intermediet\\01-array.js"
         },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program 08-asynchronous",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\07-JavaScript-Intermediet\\08-asynchronous\\03-asynchronous.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program app",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\13-React-Lanjutan\\soal-02\\src\\App.js"
+        },
     ]
 }
