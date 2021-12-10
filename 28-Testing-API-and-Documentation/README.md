@@ -11,7 +11,7 @@ Berikut beberapa file yang harus kamu masukkan ke dalam Repository:
 
 ## Result
 **Testing POST**
-![postman-post](https://drive.google.com/file/d/19kTlth9tLb3O2McFjJttkflS-KCRZH3S/view?usp=sharing)
+![postman-post](https://drive.google.com/file/d/19kTlth9tLb3O2McFjJttkflS-KCRZH3S/view?usp=sharing.png)
 
 **Testing GET ALL**
 ![postman-post](https://drive.google.com/file/d/1qIr9ec5c2D_eTwVPl2UAdCPK0ZIKx5nm/view?usp=sharing)
