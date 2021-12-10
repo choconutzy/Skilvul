@@ -11,21 +11,22 @@ Berikut beberapa file yang harus kamu masukkan ke dalam Repository:
 
 ## Result
 **Testing POST**
-![postman-post](https://drive.google.com/file/d/19kTlth9tLb3O2McFjJttkflS-KCRZH3S/view?usp=sharing)
+![Testing POST]('./ss/Create New todo.png')
+
 
 **Testing GET ALL**
-![postman-post](https://drive.google.com/file/d/1qIr9ec5c2D_eTwVPl2UAdCPK0ZIKx5nm/view?usp=sharing)
+![Testing GET ALL]("./ss/Get All Todos.png")
 
 **Testing GET by ID**
-![postman-post](https://drive.google.com/file/d/1ZQ5GqJSQptiRwCIYyyXvKKITNvjpJpTZ/view?usp=sharing)
+![GET by ID]('./ss/Get Todo By ID.png')
 
 **Testing UPDATE**
-![postman-post](https://drive.google.com/file/d/1oAxPGUTWd43fI0ChPAjilBYfz3fWsnkm/view?usp=sharing)
+![UPDATE]('./ss/Update Todo.png')
 
 **Testing DELETE**
-![postman-post](https://drive.google.com/file/d/111A_2-mblDRPa1ICwcuDlmWGeaRDOQfG/view?usp=sharing)
+![DELETE]('./ss/Delete Todo.png')
 
 **DOCUMENTATION**
 Link Docs: https://documenter.getpostman.com/view/18533497/UVR4PAfz#3f2511b9-66be-4c8b-a2cc-3a304c8c87f1
 
-![postman-post](https://drive.google.com/file/d/1o0LlFH_6AxXNdV51GTqQbPFkfiUoGpS2/view?usp=sharing)
+![Documentation]("./ss/Documentation.png")
