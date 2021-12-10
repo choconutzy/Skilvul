@@ -9,23 +9,23 @@ Berikut beberapa file yang harus kamu masukkan ke dalam Repository:
 - Buat file my-api.txt dan masukkan link documentation API yang telah digenerate
 
 
-## Expected Result
+## Result
 **Testing POST**
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-post.png)
+![postman-post](https://drive.google.com/file/d/19kTlth9tLb3O2McFjJttkflS-KCRZH3S/view?usp=sharing)
 
 **Testing GET ALL**
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-get-all.png)
+![postman-post](https://drive.google.com/file/d/1qIr9ec5c2D_eTwVPl2UAdCPK0ZIKx5nm/view?usp=sharing)
 
 **Testing GET by ID**
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-get-by-id.png)
+![postman-post](https://drive.google.com/file/d/1ZQ5GqJSQptiRwCIYyyXvKKITNvjpJpTZ/view?usp=sharing)
 
 **Testing UPDATE**
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-update.png)
+![postman-post](https://drive.google.com/file/d/1oAxPGUTWd43fI0ChPAjilBYfz3fWsnkm/view?usp=sharing)
 
 **Testing DELETE**
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-delete.png)
+![postman-post](https://drive.google.com/file/d/111A_2-mblDRPa1ICwcuDlmWGeaRDOQfG/view?usp=sharing)
 
 **DOCUMENTATION**
-Link Docs: https://documenter.getpostman.com/view/18657345/UVJhEFRg
+Link Docs: https://documenter.getpostman.com/view/18533497/UVR4PAfz#3f2511b9-66be-4c8b-a2cc-3a304c8c87f1
 
-![postman-post](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/postman-docs.png)
+![postman-post](https://drive.google.com/file/d/1o0LlFH_6AxXNdV51GTqQbPFkfiUoGpS2/view?usp=sharing)
