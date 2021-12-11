@@ -24,7 +24,7 @@ Berikut beberapa file yang harus kamu masukkan ke dalam Repository:
 ![UPDATE]('./ss/Update Todo.png')
 
 **Testing DELETE**
-![DELETE]('./ss/Delete Todo.png')
+![DELETE](./ss/Delete Todo.png)
 
 **DOCUMENTATION**
 Link Docs: https://documenter.getpostman.com/view/18533497/UVR4PAfz#3f2511b9-66be-4c8b-a2cc-3a304c8c87f1
