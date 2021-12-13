@@ -49,17 +49,21 @@ Ketika sudah berhasil membuat semua routes kita akan membuat middleware
   - Buatlah sebuah middleware function yang bergunaa untuk melakukan checking apakah Form Data yang dikirimkan memiliki 'spesies' kucing, anjing atau kelinci. Jika tidak kembalikan dengan status code 400.
   - Aplikasikan Middleware Post Checker pada '/post' endpoint / route saja
 
-## Expected Result
+## Result
 1. Soal - 01
   - Get ALL
-  ![skilvul](./soal1-1.png)
+  ![skilvul](./ss/getAll.png)
   - Get by ID
-  ![skilvul](./soal1-2.png)
+  ![skilvul](./ss/getByID.png)
   - Post
-  ![skilvul](./soal1-3.png)
+  ![skilvul](./ss/post.png)
+  - Put by ID
+  ![skilvul](./ss/put.png)
+  - Delete by ID
+  ![skilvul](./ss/delete.png)
 
 2. Soal - 02
   - Middleware Logger
-  ![skilvul](./soal2-1.png)
+  ![skilvul](./ss/middlewareLogger.jpg)
   - Middleware Post Checker
-  ![skilvul](./soal2-2.png)
+  ![skilvul](./ss/middlewarePostChecker.jpg)

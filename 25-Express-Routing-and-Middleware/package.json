@@ -1,0 +1,18 @@
+{
+  "name": "25-express-routing-and-middleware",
+  "version": "1.0.0",
+  "description": "Buatlah sebuah aplikasi express untuk aplikasi pencatatan nama nama hewan yang bisa melakukan operasi CRUD(Create Read Update Delete) dengan menggunakan Middleware.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
