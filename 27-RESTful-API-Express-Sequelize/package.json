@@ -1,0 +1,22 @@
+{
+  "name": "express-sequelize",
+  "version": "1.0.0",
+  "description": "Buatlah sebuah aplikasi express dengan menggunakan database MySQL dan menggunakan ORM Sequelize hingga bisa melakukan operasi CRUD(Create Read Update Delete)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.3"
+  }
+}
