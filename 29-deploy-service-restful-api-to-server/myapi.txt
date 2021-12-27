@@ -1,0 +1,8 @@
+url heroku
+https://sleepy-refuge-90904.herokuapp.com
+url masing-masing point
+get all products : https://sleepy-refuge-90904.herokuapp.com/products
+get product by id : https://sleepy-refuge-90904.herokuapp.com/products/2
+add product : https://sleepy-refuge-90904.herokuapp.com/products
+edit products by id : https://sleepy-refuge-90904.herokuapp.com/products/2
+delete product by id : https://sleepy-refuge-90904.herokuapp.com/products/id
